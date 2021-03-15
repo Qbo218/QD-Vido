@@ -21,7 +21,7 @@ is_new_cron = True
 # 将数据转成数组
 for i in rarr[4:]:
     # 无用行
-    if "#短期活动#" in i or "#长期活动#" in i or i == '' or '美丽研究院' in i or '偷好友积分与狗粮':
+    if "#短期活动#" in i or "#长期活动#" in i or i == '':
         continue
     # 处理>>符号
     idx = i.find(">")
