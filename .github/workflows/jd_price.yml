@@ -6,7 +6,7 @@ name: jd_price_京东保价
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 15-16 * * *'
+    - cron: '41 15-16 * * *'
   watch:
     types: [started]
   repository_dispatch:

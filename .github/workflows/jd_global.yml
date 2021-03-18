@@ -6,7 +6,7 @@ name: jd_global_环球挑战赛 第二季(活动时间：2021-03-08 至 2021-03-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 14,22 * * *'
+    - cron: '5 14,22 * * *'
   watch:
     types: [started]
   repository_dispatch:

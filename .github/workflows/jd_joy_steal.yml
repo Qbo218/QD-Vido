@@ -6,7 +6,7 @@ name: jd_joy_steal_宠汪汪偷好友积分与狗粮
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 0-13,16-23/3 * * *'
+    - cron: '33 0-13,16-23/3 * * *'
   watch:
     types: [started]
   repository_dispatch:

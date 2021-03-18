@@ -6,7 +6,7 @@ name: jd_speed_redpocke_京东极速版红包(活动时间：2021-3-8至2021-3-2
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 15-16 * * *'
+    - cron: '45 15-16 * * *'
   watch:
     types: [started]
   repository_dispatch:

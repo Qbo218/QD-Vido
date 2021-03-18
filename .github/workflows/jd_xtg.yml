@@ -6,7 +6,7 @@ name: jd_xtg_手机尚学季 活动时间：2021年3月15日 00:00:00-2021年3�
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 4,16 * * *'
   watch:
     types: [started]
   repository_dispatch:
