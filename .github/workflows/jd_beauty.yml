@@ -6,7 +6,7 @@ name: jd_beauty_美丽研究院
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4,11,23 * * *'
+    - cron: '41 0,5,12 * * *'
   watch:
     types: [started]
   repository_dispatch:

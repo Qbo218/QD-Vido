@@ -6,7 +6,7 @@ name: jd_jxd_京小兑
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 0,8,12 * * *'
+    - cron: '13 1,9,13 * * *'
   watch:
     types: [started]
   repository_dispatch:

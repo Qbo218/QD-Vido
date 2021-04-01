@@ -6,7 +6,7 @@ name: jd_live_京东直播（又回来了）
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30-50/5 4,15 * * *'
+    - cron: '30-50/5 5,16 * * *'
   watch:
     types: [started]
   repository_dispatch:

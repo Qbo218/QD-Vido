@@ -6,7 +6,7 @@ name: jd_rankingList_京东排行榜
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1 * * *'
+    - cron: '21 2 * * *'
   watch:
     types: [started]
   repository_dispatch:
