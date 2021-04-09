@@ -6,7 +6,7 @@ name: jd_live_redrain_超级直播间红包雨(活动时间不定期，出现异
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0,30,31 13-16/1 * * *'
+    - cron: '1,31 0-23/1 * * *'
   watch:
     types: [started]
   repository_dispatch:
